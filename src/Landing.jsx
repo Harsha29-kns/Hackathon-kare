@@ -276,7 +276,7 @@ function Landing() {
               {isPlaying ? <Volume2 size={24} /> : <VolumeX size={24} />}
             </button>
             {showRegistrationButton && (
-              <Link to="/register" onMouseEnter={textEnter} onMouseLeave={textLeave} className="bg-[#c5a059] hover:bg-[#b08d48] text-black px-6 py-2 rounded font-bold font-['Pirata_One'] tracking-wide transition-all transform hover:scale-105 border-2 border-[#8c6b30] shadow-[0_0_15px_rgba(197,160,89,0.5)]">
+              <Link to="/reg" onMouseEnter={textEnter} onMouseLeave={textLeave} className="bg-[#c5a059] hover:bg-[#b08d48] text-black px-6 py-2 rounded font-bold font-['Pirata_One'] tracking-wide transition-all transform hover:scale-105 border-2 border-[#8c6b30] shadow-[0_0_15px_rgba(197,160,89,0.5)]">
                 Join the Crew
               </Link>
             )}
@@ -379,7 +379,7 @@ function Landing() {
                 tabIndex={0}
                 className="mb-12"
               >
-                <Link to="/register" onMouseEnter={textEnter} onMouseLeave={textLeave} className="group relative inline-flex items-center justify-center px-12 py-5 text-2xl font-bold font-['Pirata_One'] text-[#2a1a08] transition-all duration-200 bg-[#c5a059] border-4 border-[#8c6b30] rounded-lg hover:bg-[#b08d48] hover:scale-105 hover:shadow-[0_0_30px_rgba(197,160,89,0.6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#c5a059]">
+                <Link to="/reg" onMouseEnter={textEnter} onMouseLeave={textLeave} className="group relative inline-flex items-center justify-center px-12 py-5 text-2xl font-bold font-['Pirata_One'] text-[#2a1a08] transition-all duration-200 bg-[#c5a059] border-4 border-[#8c6b30] rounded-lg hover:bg-[#b08d48] hover:scale-105 hover:shadow-[0_0_30px_rgba(197,160,89,0.6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#c5a059]">
                   <span className="mr-3">REGISTER NOW</span>
                   <Anchor className="w-6 h-6 group-hover:rotate-12 transition-transform" />
                   <div className="absolute inset-0 border-2 border-[#f3e5ab] rounded opacity-20 group-hover:opacity-40 pointer-events-none"></div>
